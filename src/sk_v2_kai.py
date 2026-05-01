@@ -26,7 +26,7 @@ class app:
         self.game_start = False
 
         pyxel.init(WIDTH, HEIGHT,"スカッシュゲーム")
-        pyxel.load("my_resource.pyxres")
+        pyxel.load("sk_resource.pyxres")
         pyxel.run(self.update, self.draw)
  
     def update(self):
